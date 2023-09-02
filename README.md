@@ -14,9 +14,9 @@ Ensure you have Docker installed.
 
 3. Run Docker command
 
-   `docker build -t your-image-name .`
+   `docker build -t receipt-processor .`
 
-   `docker run -p 5050:5050 your-image-name`
+   `docker run -p 5050:5050 receipt-processor`
 
    Then go to `http://localhost:5050`
 
